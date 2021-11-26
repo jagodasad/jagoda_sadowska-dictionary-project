@@ -1,12 +1,18 @@
 body {
   background: rgb(210, 208, 201);
+
+  background-image: url("/src/dictionary1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
   color: rgb(97, 96, 96);
 }
+
 .App {
-  max-width: 960px;
+  max-width: 760px;
   margin: 0 auto;
 }
 .App-header {

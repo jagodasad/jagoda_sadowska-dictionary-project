@@ -2,8 +2,9 @@
   margin: 20px 0;
 }
 
-.Phonetic a {
+.Phonetic .player {
   border: 1px solid #ddd;
+  background: rgb(87, 118, 128);
   text-decoration: none;
   padding: 10px 20px;
   font-size: 12px;
@@ -13,7 +14,7 @@
   transition: all 150ms ease-in-out;
 }
 
-.Phonetic a:hover {
+.Phonetic .player:hover {
   background: rgb(87, 118, 128);
   color: whitesmoke;
 }
@@ -21,4 +22,7 @@
 .Phonetic .text {
   opacity: 0.6;
   font-weight: bold;
+}
+.Phonetic .player {
+  color: darkblue;
 }
