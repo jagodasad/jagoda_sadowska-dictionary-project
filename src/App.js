@@ -12,7 +12,7 @@ export default function App() {
           </video>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="love" />
         </main>
         <footer className="text-center">
           <a
