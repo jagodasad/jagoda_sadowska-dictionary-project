@@ -4,8 +4,14 @@
 }
 
 .Synonyms li {
-  font-size: 12px;
+  font-size: 13px;
   display: inline-block;
   padding-right: 16px;
   line-height: 1;
+  font-family: "Roboto Slab", sans-serif;
+}
+@media (max-width: 576px) {
+  .Synonyms {
+    margin: 10px 0 0;
+  }
 }

@@ -9,7 +9,7 @@ export default function Phonetic(props) {
       <div className="player">
         <ReactPlayer
           url={props.phonetic.audio}
-          width="400px"
+          width="280px"
           height="50px"
           playing={false}
           controls={true}

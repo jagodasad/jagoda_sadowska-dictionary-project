@@ -4,10 +4,10 @@
 
 .Phonetic .player {
   border: 1px solid #ddd;
-  background: rgb(87, 118, 128);
+  background: rgb(116, 145, 155);
   text-decoration: none;
   padding: 10px 20px;
-  font-size: 12px;
+  font-size: 15px;
   margin-right: 10px;
   font-weight: bold;
   border-radius: 20px;
@@ -16,13 +16,4 @@
 
 .Phonetic .player:hover {
   background: rgb(87, 118, 128);
-  color: whitesmoke;
-}
-
-.Phonetic .text {
-  opacity: 0.6;
-  font-weight: bold;
-}
-.Phonetic .player {
-  color: darkblue;
 }

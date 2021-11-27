@@ -14,7 +14,7 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="love" />
         </main>
-        <footer className="text-center">
+        <footer className="footer">
           <a
             href="https://github.com/jagodasad/weather-react"
             target="_blank"

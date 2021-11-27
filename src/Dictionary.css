@@ -1,31 +1,49 @@
 .Dictionary h1 {
-  font-size: 19px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 20px;
+  font-family: "Roboto Slab", serif;
 }
 
 .Dictionary section {
-  background: white;
+  background: rgb(223, 217, 217);
   padding: 30px;
   border-radius: 8px;
   box-shadow: 5px 1px 6px rgba(0, 0, 0, 0.2);
   margin: 20px 0;
 }
 .Dictionary input {
-  width: 100%;
+  width: 75%;
   border-radius: 6px;
   padding: 7px 5px;
-  color: #333;
+  color: black;
   border: 1px solid rgb(92, 89, 89);
 }
 
 .Dictionary .hint {
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 5px;
 }
 .submit-button {
-  background: rgb(87, 118, 128);
+  margin-left: 5px;
+  background: rgb(116, 145, 155);
   border-radius: 10px;
-  font-size: 15px;
-  box-shadow: 1px 1px 1px rgb(0 0 0 / 29%);
+  font-size: 16px;
+  padding: 5px 10px;
+  color: white;
+  font-family: "Roboto Slab", sans-serif;
+}
+.Dictionary .submit-button:hover {
+  background: rgb(87, 118, 128);
+}
+@media (max-width: 576px) {
+  .Dictionary h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .Dictionary section {
+    padding: 10px;
+    margin: 10px 0;
+  }
 }
